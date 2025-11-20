@@ -664,8 +664,7 @@ HKA 0 0 PSG
         ans: 0
       };
 
-      const start = ["目前 AIC 2025 小組賽成績"];
-      print(teamMap, start, "no", false, false, state);
+      // 不再在結果輸出區多印一次「目前成績」，只顯示 DFS 的各種情況
 
       btn.disabled = true;
       statusEl.textContent = "計算中，請稍候…";
